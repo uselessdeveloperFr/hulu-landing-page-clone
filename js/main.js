@@ -16,7 +16,7 @@ function closeModal() {
 }
 
 function outsideClick(e) {
-	if (e.target == modal) {
+	if (e.target === modal) {
 		closeModal()
 	}
 }
